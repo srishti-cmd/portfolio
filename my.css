@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px,10%;
+}
+.abc{
+    height: 100vh;
+    width: 100%;
+    /* background-image:  url("https://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg");
+    background-repeat: no-repeat; */ */
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/black-red-abstract-background_79603-1550.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: white;
+    font-size:50px ;
+    letter-spacing:1px ;
+    cursor: pointer;
+    margin-top: 5%;
+}
+span{
+    color: #f9004d;
+}
+.abc ul a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li{
+    font-size:20px;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a:hover{
+    color: rgb(14, 129, 31);
+    transition:.4s;
+}
+.content{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color:aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+    
+}
+
+h4{
+    color:burlywood;
+    font-size: 20px;
+}
+.content img{
+    margin-left: 700px;
+    margin-top: 800px;
+}
+
+h3{
+    color: bisque;
+    font-size: 25px;
+}
+.info form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.info form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px ;
+    border: 2px ;
+    outline: none;
+    border-radius: 30px;
+}
+.info form input:last-child{
+    position:absolute;
+    display: inline-block;
+    border: none ;
+    outline: none;
+    padding:10px 20px ;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.about{
+    width: 90%;
+    padding: 30px 0px;
+}
+.about img{
+    height: 450px;
+    width: 450px;
+}
+.about_text{
+    width: 500px;
+}
+.main{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_text h2{
+    color:cornflowerblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about_text h5{
+    color:cornflowerblue;
+    font-size:25px ;
+}
+.about_text p{
+    color: coral;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.services{
+    /* background: black ; */
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color:crimson;
+    font-size: 75px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#858585;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px ;
+    color:red ;
+}
+h5{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.pra p{
+    color: darkgreen;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+/* .skills{
+    background-color: #000;
+    width: 100%;
+    padding: 100px 0px;
+} */
+.xyz{
+    font-size: 50px;
+    color:darkorange;
+    display:flex;
+    justify-content: center;
+}
+.skills{
+    font-size:20px;
+    color: aliceblue;
+    padding: 10px 25px;
+    /* display:flex;
+    justify-content: center; */
+}
+.end-section {
+    padding-top: 50px;
+    background-color: BLACK;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:30px;
+  }
+  .end {
+    color: #fff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    padding-bottom:12px;
+  }
+  #contact {
+    font-size: 16px;
+    color: aquamarine;
+  }
+  #contactid {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contactlinks a {
+    margin: 4px;
+  }
+  #whatsapp:hover{
+    transform: scale(1.2);
+  }
+  #instagram:hover{
+    transform: scale(1.2);
+  }
+  #facebook:hover{
+    transform: scale(1.2);
+  }
+  #linkedin:hover{
+    transform: scale(1.2);
+  }
+  #html{
+    height:4px;
+    width:400px;
+    background-color: aqua;
+    border:2px rgb(191, 255, 0) solid;
+    border-radius:3px;
+  }
+  #js{
+    height:4px;
+    width:250px;
+    background-color: aqua;
+    border:2px rgb(191, 255, 0) solid;
+    border-radius:3px;
+  }
+  #Css{
+    height:4px;
+    width:350px;
+    background-color: aqua;
+    border:2px rgb(191, 255, 0) solid;
+    border-radius:3px;
+  }
+  #java{
+    height:4px;
+    width:400px;
+    background-color: aqua;
+    border:2px rgb(191, 255, 0) solid;
+    border-radius:3px;
+  }
